@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
   - name: k8s-demo
-    image: abhigupta1207/hello-world
+    image: abhigupta1207/helloworld
     ports:
     - name: apache-port
       containerPort: 80
