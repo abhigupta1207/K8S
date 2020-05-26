@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: helloworld-demo
+  labels:
+    app: helloworld
+spec:
+  containers:
+  - name: k8s-demo
+    image: abhigupta1207/hello-world
+    ports:
+    - name: apache-port
+      containerPort: 80
+
