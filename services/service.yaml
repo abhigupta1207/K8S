@@ -4,7 +4,7 @@ metadata:
   name: demo-service
 spec:
   ports:
-  - port: 31001
+  - port: 3000
     nodePort: 31001
     targetPort: nodejs-port
     protocol: TCP
