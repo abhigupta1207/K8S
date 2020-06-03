@@ -12,7 +12,7 @@ spec:
       containers:
       - name: k8s-demo
         image: abhigupta1207/helloworld-nodejs
-        command: ["node", "index.js"]
+        command: ["node", "index-db.js"]
         ports:
         - name: nodejs-port
           containerPort: 3000
