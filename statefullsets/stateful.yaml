@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: k8s-demo
-        image: amitvashist7/helloworld-nodejs
+        image: abhigupta1207/helloworld-nodejs
         ports:
         - name: node-port
           containerPort: 80
