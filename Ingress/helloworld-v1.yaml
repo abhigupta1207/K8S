@@ -16,7 +16,7 @@ spec:
       containers:
       - name: k8s-demo
         image: abhigupta1207/helloworld-nodejs
-	imagePullPolicy: Always
+        imagePullPolicy: Always
         ports:
         - name: nodejs-port
           containerPort: 3000
